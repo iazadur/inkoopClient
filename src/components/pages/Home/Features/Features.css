@@ -65,3 +65,32 @@
     color: white;
     background: rgb(14, 154, 219);
 }
+
+
+@media only screen and (max-width: 420px){
+    .FeatureSection {
+        display: flex;
+        flex-direction: column;
+    }
+    
+.featureImg {
+    width: 90%;
+    border-radius: 15px;
+    margin: 0 auto;
+}
+
+.outerFeature{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 90px;
+}
+.feature {
+    padding: 20px 20px 0 20px;
+    height: 250px;
+    width: 300px;
+    margin: -60px 0;
+    text-align: start !important;
+}
+}

@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 20px;
 }
 .menu{
     display: flex;
@@ -69,12 +70,30 @@
   .head{
       display: none;
   }
+  .mobilemenu{
+      display: none;
+  }
   
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 420px) {
 .menu{
     display: none;
 }
 
 .head{display: block;margin-right: 10px;font-size: 28px;}
+.mobilemenu{
+    z-index: 100;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
 
+}
+.mobilemenu .menuItem{
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 5px;
+}
+.mobilemenu .menuItem:hover{
+    background: #000;
+    color: white;
+}
   }
