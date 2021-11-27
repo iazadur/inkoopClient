@@ -1,0 +1,21 @@
+.my{
+    margin: 60px 0;
+}
+.heroHeading{
+font-weight: bolder;
+font-size: 40px;
+
+}
+.heroHeadingSpan{
+color: #0975da;
+}
+.heroDesc{
+color: rgb(146, 141, 141);
+font-size: 12px;
+}
+.heroButton{
+padding: 8px 14px;
+background: #004687;
+color: ghostwhite;
+border-radius: 8px;
+}
